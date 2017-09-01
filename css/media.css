@@ -1,0 +1,119 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) and (min-width : 768px) {
+    .top_header_left {
+        display: inline-block !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .top_menu ul {
+        position: absolute;
+        width: 100%;
+        top: 128px;
+    }
+
+    .icon_menu {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .top_menu ul li {
+        display: block;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .s_order .button {
+        float: none;
+        margin-top: 20px;
+    }
+
+    .s_order {
+        text-align: center;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_header_left {
+        position: absolute;
+        top: 40px;
+        background-color: #45474B;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+        width: 100%;
+        z-index: 10
+    }
+
+    .icon_auth {
+        position: absolute;
+    }
+
+    .icon_menu {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .top_menu ul li {
+        display: block;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .phone_right i, .phone_right span {
+        font-size: 20px;
+    }
+
+    .top_menu ul {
+        position: absolute;
+        width: 100%;
+        top: 123px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .main_content_left img {
+        margin-bottom: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .top_menu {
+        display: inline-block !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
